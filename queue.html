@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <nav>
+        <h2> example about stack and queue</h2>
+        <ul>
+            <li><a href="stack.html"> stack</a></li>
+            <li><a href="queue.html"> queue</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="queue">
+    <div class="form_forqueue">
+    <h1>Queue Example</h1>
+    <form id="queueForm">
+        <label for="enqueueInput">Enqueue Element:</label>
+        <input type="text" id="enqueueInput" placeholder="Enter an element">
+        <button type="button" onclick="enqueue()">Enqueue</button>
+    </form>
+
+    <div id="queueDisplay">
+        <h2>Queue</h2>
+        <ul id="queueList"></ul>
+    </div>
+
+    <button type="button" onclick="dequeue()">Dequeue</button>
+</div>
+</div>
+
+    <script src="App.js"></script>
+</body>
+</html>
